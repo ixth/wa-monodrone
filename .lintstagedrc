@@ -1,0 +1,7 @@
+{
+    "*.{js,ts}": "eslint",
+    "package.json": [
+        "sh -c 'npm install'",
+        "git add package-lock.json"
+    ]
+}
